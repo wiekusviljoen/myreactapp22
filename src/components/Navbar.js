@@ -28,6 +28,15 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="gotosomewhere "
+              >
+                About us
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="gotosomewhere ">
                 Link
               </a>
