@@ -1,5 +1,5 @@
 const AboutView = () => {
-  return <></>;
+  return <>Hello about</>;
 };
 
 export default AboutView;
