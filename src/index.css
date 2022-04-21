@@ -14,7 +14,12 @@ code {
 
 button {
   border-radius: 5px;
-  border-color:cornflowerblue;
+  border-color:gray;
+  border-top: gray;
+  border-bottom: gray;
+  border-left: gray;
+  border-right: gray;
+  font-size: larger;
 }
 
 .button1 {
