@@ -25,13 +25,13 @@ const Navbar = () => {
             </a>
 
             <a href="/about">
-              <button type="button" class="button">
+              <button type="button" class="button1">
                 About
               </button>
             </a>
 
             <a href="/">
-              <button type="button" class="button">
+              <button type="button" class="button2">
                 Coming Soon
               </button>
             </a>

@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  border-radius: 5px;
+  border-color:cornflowerblue;
+}
+
+.button1 {
+  border-radius: 5px;
+  position: relative; left: 5%;
+}
+
+
+.button2 {
+  border-radius: 5px;
+  position: relative;left: 6%;
+}
