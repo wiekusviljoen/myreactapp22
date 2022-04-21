@@ -1,5 +1,11 @@
+import Hero from "./Hero";
 const AboutView = () => {
-  return <>About us</>;
+  return (
+    <h2>
+      <Hero />
+      About us
+    </h2>
+  );
 };
 
 export default AboutView;
