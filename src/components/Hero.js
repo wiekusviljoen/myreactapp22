@@ -1,7 +1,7 @@
-const Hero = () => {
+const Hero = ({ text }) => {
   return (
     <header className="bg-dark text-white p-s">
-      <h1>This is hero</h1>
+      <h1>{text}</h1>
     </header>
   );
 };
