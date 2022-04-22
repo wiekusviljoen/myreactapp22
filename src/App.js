@@ -12,6 +12,13 @@ function App() {
 
   useEffect(() => {
     console.log(searchText, "is the search text");
+    fetch(
+      `https://api.themoviedb.org/3/search/movie?api_key=ca2a714966e558e6611341224c92c0ab&language=en-US&query=${searchText}page=1&include_adult=false`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      });
   }, [searchText]);
 
   return (
