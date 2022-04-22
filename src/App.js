@@ -14,9 +14,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/about" component={AboutView} />
-        <Route path="/search">
-          <SearchView />
-        </Route>
+        <Route path="/search" component={SearchView} />
       </Switch>
     </div>
   );

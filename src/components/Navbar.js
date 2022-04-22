@@ -45,10 +45,12 @@ const Navbar = () => {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success" type="submit">
+          </form>
+          <a href="/search">
+            <button type="submit" class="searchbutton">
               Search
             </button>
-          </form>
+          </a>
         </div>
       </div>
     </nav>
