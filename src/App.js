@@ -18,6 +18,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
+        setSearchResults(data.results);
       });
   }, [searchText]);
 
