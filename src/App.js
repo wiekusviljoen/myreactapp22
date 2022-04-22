@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AboutView from "./components/AboutView";
 import { Switch, Route } from "react-router-dom";
-import SearchView from 
+import SearchView from "./components/SearchView";
 
 function App() {
   return (
@@ -14,6 +14,9 @@ function App() {
           <Home />
         </Route>
         <Route path="/about" component={AboutView} />
+        <Route path="/search">
+          <SearchView />
+        </Route>
       </Switch>
     </div>
   );
