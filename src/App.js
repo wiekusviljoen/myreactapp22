@@ -10,6 +10,10 @@ function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [searchText, setSearchText] = useState("searching for ...");
 
+  useEffect(() => {
+    console.log(searchText, "is the search text");
+  }, [searchText]);
+
   return (
     <div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
