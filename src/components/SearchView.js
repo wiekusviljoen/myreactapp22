@@ -7,7 +7,7 @@ const SearchView = ({ keyword, searchResults }) => {
   const title = `You are searching for ${keyword} `;
 
   const resultsHtml = searchResults.map((obj, i) => {
-    return <div>{obj.original_title}</div>;
+    return <div key={i}>{obj.original_title}</div>;
   });
 
   console.log(searchResults, "are the search results");
