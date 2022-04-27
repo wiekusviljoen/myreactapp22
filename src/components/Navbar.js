@@ -36,6 +36,12 @@ const Navbar = () => {
               </button>
             </a>
 
+            <a href="/contact">
+              <button type="button" class="button3">
+                Contact us
+              </button>
+            </a>
+
             <li className="nav-item"></li>
           </ul>
         </div>
