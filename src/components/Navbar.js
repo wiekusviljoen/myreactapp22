@@ -2,9 +2,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a href className="navbar-brand" to="/">
-          Movie Browser
-        </a>
+        <h1 type="h1" class="h1">
+          FrogIns
+        </h1>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -32,7 +33,7 @@ const Navbar = () => {
 
             <a href="/">
               <button type="button" class="button2">
-                Coming Soon
+                Transport Services
               </button>
             </a>
 
