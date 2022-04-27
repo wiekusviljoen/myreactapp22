@@ -26,7 +26,7 @@ const Navbar = () => {
             </a>
             <a href="/">
               <button type="button" class="button2">
-                Transport Services
+                Transport
               </button>
             </a>
 
