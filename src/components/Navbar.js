@@ -1,10 +1,4 @@
-import { useHistory } from "react-router-dom";
 const Navbar = ({ searchText, setSearchText }) => {
-  const history = useHistory();
-  const updateSearchText = (e) => {
-    history.push(`/search`);
-    setSearchText(e.target.value);
-  };
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
