@@ -24,7 +24,7 @@ const Navbar = () => {
                 Home
               </button>
             </a>
-            <a href="/">
+            <a href="/transport">
               <button type="button" class="button2">
                 Transport
               </button>
