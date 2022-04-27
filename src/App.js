@@ -5,6 +5,7 @@ import AboutView from "./components/AboutView";
 import { Switch, Route } from "react-router-dom";
 import SearchView from "./components/SearchView";
 import { useState, useEffect } from "react";
+import Contact from "./components/Contact";
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -31,7 +32,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/about" component={AboutView} />
-        <Route path="/search">
+        <Route path="/contact" component={Contact}>
           <SearchView keyword={searchText} searchResults={searchResults} />
         </Route>
       </Switch>
