@@ -24,16 +24,15 @@ const Navbar = () => {
                 Home
               </button>
             </a>
+            <a href="/">
+              <button type="button" class="button2">
+                Transport Services
+              </button>
+            </a>
 
             <a href="/about">
               <button type="button" class="button1">
                 About
-              </button>
-            </a>
-
-            <a href="/">
-              <button type="button" class="button2">
-                Transport Services
               </button>
             </a>
 
