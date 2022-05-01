@@ -2,6 +2,14 @@ import Hero from "./Hero";
 import React, { useState } from "react";
 
 const Contact = () => {
+  <>
+    <Hero text="Contact us" />
+
+    <div class="paragraphContact">
+      dlafj lafkj lasfkjsdkjf a ldsf lskdf lajlf jlasjfdl ajslf
+    </div>
+  </>;
+
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -41,13 +49,5 @@ const Contact = () => {
     </form>
   );
 };
-
-<>
-  <Hero text="Contact" />
-
-  <div class="paragraphContact">
-    dlafj lafkj lasfkjsdkjf a ldsf lskdf lajlf jlasjfdl ajslf
-  </div>
-</>;
 
 export default Contact;
