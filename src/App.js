@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AboutView from "./components/AboutView";
 import Contact from "./components/Contact";
+import ContactForm from "./components/ContactForm";
 
 import Transport from "./components/Transport";
 import { Switch, Route } from "react-router-dom";
@@ -29,6 +30,7 @@ function App() {
   return (
     <div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
+      <ContactForm />
 
       <Switch>
         <Route path="/" exact>
