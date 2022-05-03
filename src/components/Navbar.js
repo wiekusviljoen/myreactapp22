@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <h1 type="h1" class="h1">
-          FrogIns Transport Ltd
+          FrogIns Transport
         </h1>
 
         <button

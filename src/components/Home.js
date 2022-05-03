@@ -3,7 +3,7 @@ import Hero from "./Hero";
 const Home = () => {
   return (
     <>
-      <Hero text="Welcome" />
+      <Hero text="Welcome to Frogins Transport" />
       <h1>Hello world from react 2022</h1>
       <div class="paragraphHome">
         Lorem slkfjalsjflakjflkslf lskfj laf lafjd lsjdf lsf kjsf

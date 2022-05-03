@@ -21,26 +21,26 @@ button {
   border-right: gray;
   font-size: larger;
   box-shadow: #2980b9;
-  position: absolute; right: 61.6%;
+  position: absolute; right: 62.9%;
   
 }
 
 .button1 {
   border-radius: 5px;
-  position: absolute; right: 40.8%;
+  position: absolute; right: 42.8%;
 }
 
 
 .button2 {
   border-radius: 5px;
-  position: absolute;right: 48.5%;
+  position: absolute;right: 50.2%;
   
   
 }
 
 .button3{
 
-  position: absolute;right: 32.2%;
+  position: absolute;right: 34.8%;
 }
 
 button:hover {
