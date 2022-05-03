@@ -8,19 +8,10 @@ const Contact = () => {
       .sendForm("service_z4x1kcc", "template_z1sy47v", e.target)
       .then((res) => {
         console.log(res);
-      })
-      .catch((err) => console.log(err));
+      });
   }
   return (
     <div>
-      className="container border" style=
-      {{
-        marginTop: "50px",
-        width: "50px",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-      }}
-      <h1 style={{ marginTop: "25px" }}>Contact Form</h1>
       <form
         className="row"
         style={{ margin: "25px 85px 75px 100px" }}
