@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <h1 type="h1" class="h1">
-          FrogIns Transport
+          FrogIns Transport Ltd
         </h1>
 
         <button
@@ -26,13 +26,13 @@ const Navbar = () => {
             </a>
             <a href="/transport">
               <button type="button" class="button2">
-                Transport
+                Transport Services
               </button>
             </a>
 
             <a href="/about">
               <button type="button" class="button1">
-                About
+                About Us
               </button>
             </a>
 
