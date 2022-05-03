@@ -5,7 +5,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_z4x1kcc", "template_z1sy47v", e.target)
+      .sendForm(
+        "service_z4x1kcc",
+        "template_z1sy47v",
+        e.target,
+        "FWX0PEsQrtPVUpbiN"
+      )
       .then((res) => {
         console.log(res);
       });
