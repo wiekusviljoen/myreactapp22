@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AboutView from "./components/AboutView";
 import Contact from "./components/Contact";
-
+import Services from "./components/Services";
 import Transport from "./components/Transport";
 import { Switch, Route } from "react-router-dom";
 import SearchView from "./components/SearchView";
@@ -37,6 +37,7 @@ function App() {
         <Route path="/about" component={AboutView} />
         <Route path="/contact" component={Contact} />
         <Route path="/transport" component={Transport} />
+        <Route path="/services" component={Services} />
         <SearchView keyword={searchText} searchResults={searchResults} />
       </Switch>
     </div>
