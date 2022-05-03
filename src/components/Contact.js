@@ -23,7 +23,7 @@ const Contact = () => {
         onSubmit={sendEmail}
       >
         <label>Name</label>
-        <input type="text" name="name" className="from-control" />
+        <input type="text" name="name" className="form-control" />
 
         <label>Email</label>
         <input type="email" name="user_mail" className="form-control" />
