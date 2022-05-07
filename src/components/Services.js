@@ -1,5 +1,10 @@
+import Hero from "./Hero";
 const Services = () => {
-  <>hello</>;
+  return (
+    <>
+      <Hero text="Services" />
+    </>
+  );
 };
 
 export default Services;
