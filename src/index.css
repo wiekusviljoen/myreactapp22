@@ -71,3 +71,7 @@ button:hover {
  .paragraphContact{
    text-align: left;
  }
+
+ .images{
+   position: relative; right: 50%;
+ }
