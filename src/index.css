@@ -75,6 +75,7 @@ button:hover {
 
 
 .main-container{
-  background-image: "./components/images/Frogins log.jpg";
-  background-size: cover;
+  background-image:url(/src/components/images/Frogins\ log.jpg);
+  
+  
 }
