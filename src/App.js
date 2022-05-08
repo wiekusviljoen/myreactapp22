@@ -29,6 +29,7 @@ function App() {
   return (
     <div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
+      <img src ={require{"./images/Frogins log.jpg"}} />;
 
       <Switch>
         <Route path="/" exact>
