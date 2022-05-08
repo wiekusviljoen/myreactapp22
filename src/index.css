@@ -72,7 +72,9 @@ button:hover {
    text-align: left;
  }
 
-.image{
 
-  position: absolute;left: 35%;
+
+.main-container{
+  background-image: "./components/images/Frogins log.jpg";
+  background-size: cover;
 }
