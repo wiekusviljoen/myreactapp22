@@ -72,6 +72,7 @@ button:hover {
    text-align: left;
  }
 
- .images{
-   position: relative; right: 50%;
- }
+.image{
+
+  position: relative;left: 35%;
+}

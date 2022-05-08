@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Frogins from "./images/Frogins log.jpg";
+
 import Home from "./components/Home";
 import AboutView from "./components/AboutView";
 import Contact from "./components/Contact";
@@ -29,9 +29,7 @@ function App() {
 
   return (
     <div>
-      <div className="App">
-        <img src={Frogins} height={100} width={200} />
-      </div>
+      <div className="App"></div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
       <Switch>
         <Route path="/" exact>
