@@ -1,39 +1,16 @@
+import Hero from "./Hero";
 const Products = () => {
   return (
-    <div class="container">
-      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
-        </div>
-        <div class="col">
-          <div class="p-3 border bg-light">Row column</div>
+    <>
+      <Hero text="Services" />
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8 offset-lg-2 my-5">
+            <p className="Lead"></p>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default Products;
