@@ -30,9 +30,9 @@ const Navbar = () => {
               </button>
             </a>
 
-            <a href="/services">
+            <a href="/products">
               <button type="button" class="button4">
-                Services
+                Products
               </button>
             </a>
 

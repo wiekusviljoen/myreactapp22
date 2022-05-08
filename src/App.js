@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-
+import Products from "./components/Products";
 import Home from "./components/Home";
 import AboutView from "./components/AboutView";
 import Contact from "./components/Contact";
@@ -38,7 +38,7 @@ function App() {
         <Route path="/about" component={AboutView} />
         <Route path="/contact" component={Contact} />
         <Route path="/transport" component={Transport} />
-        <Route path="/services" component={Services} />
+        <Route path="/products" component={Products} />
         <SearchView keyword={searchText} searchResults={searchResults} />
       </Switch>
     </div>
